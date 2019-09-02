@@ -1,0 +1,75 @@
+.navbar {
+    letter-spacing: .01rem;
+    font-size: 100%;
+}
+
+.nav-link {
+    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.caps {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+#navbarNav {
+    margin-left: 30px;
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mainContainer {
+    margin-top: 50px;
+}
+
+.customCard {
+    background: #f4f3f9;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+.headerName {
+    padding-top: 20px;
+    font-size: 1.0rem;
+    color: #3a4145;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.border-bottom {
+    border-bottom-style: solid!important;
+    border-bottom-width: 1px!important;
+    border-bottom-color: rgba(0,0,0,.125)!important;
+}
+
+.center {
+    text-align: center;
+}
+
+.topMargin {
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    background-color: #343a40!important;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 25px;
+}
