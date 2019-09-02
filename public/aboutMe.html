@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>About me</title>
+    <title>About Me</title>
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,6 +14,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/site.css">
 </head>
 
@@ -48,24 +51,36 @@
         <div class="container mainContainer">
             <div class="row center customCard">
                 <div class="col col-lg-12 col-md-12 border-bottom">
-                    <img src="img/86.jpg" alt="Claire Stephens" class="img-thumbnail">
+                    <div class="thumbnail">
+                        <a href="https://randomuser.me/api/portraits/women/86.jpg" target="_blank">
+                            <img src="https://randomuser.me/api/portraits/women/86.jpg" alt="Claire Stephens"
+                                class="img-thumbnail" title="Random woman 86 by randomuser.me">
+                            <p class="citation"><a href="https://randomuser.me/api/portraits/women/86.jpg" target="_blank">"Random woman
+                                    86"</a> by randomuser.me</p>
+                        </a>
+                    </div>
                     <p class="headerName caps">
                         <b>
                             Claire Stephens
                         </b>
                     </p>
                 </div>
-                <div class="col col-lg-3 col-md-3 topMargin">
+                <div class="col col-lg-2 col-md-2 topMargin">
+                    <i class="fas fa-globe-asia"></i>
                     <strong>Country:</strong> USA
                 </div>
                 <div class="col col-lg-3 col-md-3 topMargin">
+                    <i class="fas fa-birthday-cake"></i>&nbsp;
                     <strong>Birthdate:</strong> 1/5/1971
                 </div>
                 <div class="col col-lg-2 col-md-3 topMargin">
+                    <i class="fas fa-baby-carriage"></i>
                     <strong>Age:</strong> 48 years
                 </div>
-                <div class="col col-lg-4 col-md-4 topMargin">
-                    <strong>Email:</strong> <a id="email" href="mailto:claire.stephens68@example.com?Subject=Hello%20Claire">
+                <div class="col col-lg-5 col-md-5 topMargin">
+                    <i class="far fa-envelope"></i>&nbsp;
+                    <strong>Email:</strong> <a id="email"
+                        href="mailto:claire.stephens68@example.com?Subject=Hello%20Claire">
                         claire.stephens68@example.com
                     </a>
                 </div>
@@ -75,7 +90,11 @@
 
     <!-- Footer -->
     <footer>
+        <br><br>
         <p>Welcome to my page</p>
+        <p>Copyright &copy; 2019 All Rights Reserved by
+            <em>Arpita Bali</em>
+        </p>
     </footer>
 
 </body>
